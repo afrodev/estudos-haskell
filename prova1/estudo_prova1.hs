@@ -1,8 +1,18 @@
-
-
-
-main a = 1
+-- Para executar basta abrir o ghci no terminal
+-- :load nome do arquivo
 
 
 -- Exercicio 2 - Haskell - Rotate palavra
--- Entrar em cada palavra e rotacionar
+-- Rotacionar cada array com o número
+
+rotate array 0 = array
+rotate array n = rotate (rotateOne array) (n-1)
+
+rotateOne n = ((tail n) ++ [(head(n))])
+
+
+
+
+
+
+
