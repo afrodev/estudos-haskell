@@ -1,0 +1,33 @@
+1 - 
+
+<stmt>     ->   switch ( <int expr> ) {
+                           case <int const> :  { <stmt> ; }
+                        { case <int const> :  { <stmt> ; }}
+                        [ default :  { <stmt>  ;  } ]
+                     }
+ 
+ 
+
+3 - 
+
+while (p != null) {
+	if (p.info) == key
+	break; 
+
+	p = p.next;
+}
+
+Ao retirar o curto-circuito da linha 1, é possível colocar a segunda verificação na parte de baixo. Pois caso a primeira não seja verdadeira ela não faria a segunda verificação. Por isso, ela pode ser substituida com o if em baixo do while
+
+
+5 - Passagem por valor é criada uma copia
+	Passagem por referencia é utilizada a mesma variavel passada por parametro
+	Passagem por valor-resultado é criada uma copia dos valores durante a função e depois é retornado o resultado no endereço passado por parametro
+
+
+6 - Explique a diferença entre Tipos Abstratos de Dados e Classes. 
+	Primeiro surgiu os tipos abstratos de classes na programacao procedural
+	Conceito de tipo de dados foi pensado e refatorado
+	Para o paradigma de orientação a objetos é utilizado o tipo abstrato de dados só que com coisas a mais
+		- Pega em base de um modelo real
+		- Tem operações com esses tipos abstratos de dados então um pode herdar as propriedades do outros entre outras coisas
